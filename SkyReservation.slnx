@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/docs/">
+    <File Path="domainSpecifcation.txt" />
+  </Folder>
+  <Project Path="SkyReservation.AppHost/SkyReservation.AppHost.csproj" />
+  <Project Path="SkyReservation.ServiceDefaults/SkyReservation.ServiceDefaults.csproj" />
+  <Project Path="SkyReservation.WebAPI/SkyReservation.WebAPI.csproj" />
+</Solution>

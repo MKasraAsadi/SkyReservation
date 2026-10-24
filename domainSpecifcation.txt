@@ -1,0 +1,16 @@
+﻿--معنی فایل : اون مفاهیمی که از اون حوزه کسب و کار که دقیقا میخواهیم روی آن احاطه داشته باشیم 
+
+FR
+	Domain Specification
+		- چه ویژگی داره
+		- چه بیزینسی داره
+
+NFR
+	Performance: Defines response-time, latency, or throughput targets.
+	Availability: Defines how often the system should remain accessible.
+	Reliability: Defines expected behavior during failures and recovery.
+	Scalability: Defines how the system should handle increasing traffic, users, or data.
+	Security: Defines requirements for authentication, authorization, encryption, and data protection.
+	Maintainability: Defines expectations for updating, testing, debugging, and modifying the system.
+	Usability: Defines usability or accessibility expectations.
+	Portability: Defines supported environments, platforms, or deployment targets.
