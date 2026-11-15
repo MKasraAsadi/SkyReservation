@@ -14,6 +14,7 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 #region API Versioning
 builder.Services.AddApiVersioning(options =>
 {
@@ -35,7 +36,11 @@ builder.Services.AddApiVersioning(options =>
 var app = builder.Build();
 
 app.MapDefaultEndpoints();
-
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
