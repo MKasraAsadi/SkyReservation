@@ -14,3 +14,20 @@ NFR
 	Maintainability: Defines expectations for updating, testing, debugging, and modifying the system.
 	Usability: Defines usability or accessibility expectations.
 	Portability: Defines supported environments, platforms, or deployment targets.
+
+- Task For Kasra 
+	. Complate NFR & FR 
+	. هر بخش پروژه که مینویسیم بگیم که با دیتا بیشتر کار می کنه یا سی پی یو
+	. مدل سازی را انجام بدم
+
+
+Note : بهترین معماری که کار کردی کدوم بوده ؟ معماری پروژه بعدی
+Note : توی سی شارپ چند روش برای اضافه کردن قابلیت به کلاس را داریم
+	- یکی از آنها inhretance هست 
+	- Attribute ها  
+
+مفهوم DRY رو رعایت کنم
+DRY => نداشتن تکرار 
+	-Product/Get مثل این باشه
+
+نکته : هرموقع که خواستنیمک
