@@ -1,5 +1,6 @@
 ﻿namespace SkyReservation.WebAPI.Entities
 {
+    
     /// <summary>
     /// هواپیما
     /// </summary>

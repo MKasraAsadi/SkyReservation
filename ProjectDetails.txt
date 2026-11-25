@@ -1,0 +1,10 @@
+
+- CPU Or I/O Bound ?
+ .Entites
+	-when create instance in Heap RAM and CPU Bound
+ .Interface
+	-no CPU and no I/O :: when implemanat interface is I/O 
+ .Services 
+	-I/O Bound
+
+	عمدتا منطق برنامه CPU را در گیر می کنید 

@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/docs/">
     <File Path="domainSpecifcation.txt" />
+    <File Path="ProjectDetails.txt" />
     <File Path="SkyReservation.WebAPI/FR&amp;NFR-FlyReservation.docx" />
   </Folder>
   <Project Path="SkyReservation.AppHost/SkyReservation.AppHost.csproj" />

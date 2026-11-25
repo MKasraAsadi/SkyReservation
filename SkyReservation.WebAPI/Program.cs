@@ -1,4 +1,8 @@
 using Asp.Versioning;
+using Microsoft.EntityFrameworkCore;
+using SkyReservation.WebAPI.Data;
+using SkyReservation.WebAPI.Interface;
+using SkyReservation.WebAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,7 +36,12 @@ builder.Services.AddApiVersioning(options =>
 });
 #endregion
 
-
+builder.Services.AddScoped<IUserService,UserService>();
+var connectionString =
+    builder.Configuration.GetConnectionString("ConnectionStrings")
+        ?? throw new InvalidOperationException("Connection string"
+        + "'DefaultConnection' not found.");
+builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString), ServiceLifetime.Scoped);
 var app = builder.Build();
 
 app.MapDefaultEndpoints();
